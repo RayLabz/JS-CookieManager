@@ -7,12 +7,14 @@ The JavaScript cookie manager aims to allow web developers to easily manage cook
 
 <a href="https://github.com/RayLabz/JS-CookieManager/raw/master/CookieManager.zip">DOWNLOAD HERE</a>
 
+Extract in your website folder, in a folder called "js".
+
 ## Usage
 
 ##### Import
 You can import the cookie manager in your code using:
 ```js
-<script src="CookieManager.js"></script>
+<script src="js/CookieManager.js"></script>
 ```
 
 ##### Defining cookie names
