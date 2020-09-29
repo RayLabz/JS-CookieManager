@@ -24,9 +24,10 @@ You can define a cookie name inside the Cookies class (located inside CookieMana
 ```js
 class Cookies {
 
-    static COOKIE_NAME = "myCookie"; //Sample cookie declaration
-
     //TODO - Declare your cookies here and access their names using Cookies.<COOKIE_NAME>
+    static COOKIE_NAME = "myCookie"; //Sample cookie declaration
+    
+    //Declare your own cookies here...    
 
 }
 ```
@@ -36,17 +37,17 @@ The Cookies class allows you to organize your cookie names in the same place. Th
  
 ##### Setting cookie values
  
-You can use ```CookieManager.setCookie()``` to set a cookie value by providing the cookie name and value:
+You can use ```Cookies.setCookie()``` to set a cookie value by providing the cookie name and value:
 
 ```js
-CookieManager.setCookie(Cookies.COOKIE_NAME, "aValue");
+Cookies.setCookie(Cookies.COOKIE_NAME, "aValue");
 ```
 
 The ```setCookie()``` function will create cookies with an expiration period of 30 days by default. To create 
 cookies with a custom expiration period, you can use ```setCookieWithExpiration()``` and provide the number of days to expiration as an extra parameter:
 
 ```js
-CookieManager.setCookieWithExpiration(Cookies.COOKIE_NAME, "aValue", expirationDays);
+Cookies.setCookieWithExpiration(Cookies.COOKIE_NAME, "aValue", expirationDays);
 ```
 
 
@@ -55,7 +56,7 @@ CookieManager.setCookieWithExpiration(Cookies.COOKIE_NAME, "aValue", expirationD
 You can retrieve the value of a cookie by using ```getCookie()``` and providing its name as a parameter:
 
 ```js
-let cookieValue = CookieManager.getCookie(Cookies.COOKIE_NAME);
+let cookieValue = Cookies.getCookie(Cookies.COOKIE_NAME);
 ```
 
 If a cookie is not set, the ```getCookies()``` method will return ```null```.
@@ -64,7 +65,7 @@ If a cookie is not set, the ```getCookies()``` method will return ```null```.
 
 You can check if a given cookie exists using ```cookieExists()``` and providing the name of the cookie as a parameter:
 
-```let cookieExists = CookieManager.cookieExists(Cookies.COOKIE_NAME);```
+```let cookieExists = Cookies.cookieExists(Cookies.COOKIE_NAME);```
 
 The ```cookieExists()``` method will return a boolean value (true if it exists, false otherwise).
 
@@ -73,7 +74,7 @@ The ```cookieExists()``` method will return a boolean value (true if it exists, 
 To delete a cookie, you can use the ```deleteCookie()``` method and provide the cookie's name to delete as a parameter:
 
 ```js
-CookieManager.deleteCookie(Cookies.COOKIE_NAME);
+Cookies.deleteCookie(Cookies.COOKIE_NAME);
 ```
 
 ##### Resetting all cookies
@@ -81,7 +82,7 @@ CookieManager.deleteCookie(Cookies.COOKIE_NAME);
 You can reset (delete) all cookies stored by your website at once, using ```resetCookies()```:
 
 ```js
-CookieManager.resetCookies();
+Cookies.resetCookies();
 ```
 
 <hr/>

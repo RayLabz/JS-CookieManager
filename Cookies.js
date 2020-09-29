@@ -1,12 +1,9 @@
 class Cookies {
 
-    static COOKIE_NAME = "myCookie"; //Sample cookie declaration
+    //TODO - Declare your cookies here and access them using Cookies.MY_COOKIE
+    static MY_COOKIE = "myCookie"; //Sample cookie declaration
 
-    //TODO - Declare your cookies here and access them using Cookies.COOKIE_NAME
-
-}
-
-class CookieManager {
+    //----------------------------------------------------------------------------------------------------------------//
 
     /**
      * Sets a cookie with a specific name, value and expiration time.
@@ -15,6 +12,7 @@ class CookieManager {
      * @param cookieValue The value of the cookie.
      */
     static setCookie(cookieName, cookieValue) {
+        cookieValue += "";
         cookieValue = cookieValue.replace(/;/g, '%3B');
         const date = new Date();
         date.setTime(date.getTime() + (30*24*60*60*1000));
@@ -30,6 +28,7 @@ class CookieManager {
      * @param cookieExpirationDays The expiration time of the cookie.
      */
     static setCookieWithExpiration(cookieName, cookieValue, cookieExpirationDays) {
+        cookieValue += "";
         cookieValue = cookieValue.replace(/;/g, '%3B');
         const date = new Date();
         date.setTime(date.getTime() + (cookieExpirationDays*24*60*60*1000));
@@ -59,7 +58,7 @@ class CookieManager {
      * @returns {boolean}
      */
     static cookieExists(cname) {
-        return CookieManager.getCookie(cname) != null;
+        return Cookies.getCookie(cname) != null;
     }
 
     /**
