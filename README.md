@@ -19,7 +19,7 @@ You can import the cookie manager in your code using:
 
 ##### Defining cookie names
 
-You can define a cookie name inside the Cookies class (located inside CookieManager.js):
+You can define a cookie name inside the Cookies class (located inside Cookies.js):
 
 ```js
 class Cookies {
