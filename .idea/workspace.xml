@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffeb072c-7ae9-4906-b8a0-342d7d0dbb8b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CookieManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/Cookies.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CookieManager.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_cookieExists.html" beforeDir="false" afterPath="$PROJECT_DIR$/test_cookieExists.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_deleteCookie.html" beforeDir="false" afterPath="$PROJECT_DIR$/test_deleteCookie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_getCookie.html" beforeDir="false" afterPath="$PROJECT_DIR$/test_getCookie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_resetCookies.html" beforeDir="false" afterPath="$PROJECT_DIR$/test_resetCookies.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_setCookie.html" beforeDir="false" afterPath="$PROJECT_DIR$/test_setCookie.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,11 +75,34 @@
       <updated>1587291467470</updated>
       <workItem from="1587291469893" duration="3544000" />
       <workItem from="1589662023474" duration="33000" />
-      <workItem from="1601366302348" duration="392000" />
+      <workItem from="1601366302348" duration="435000" />
+      <workItem from="1602921850242" duration="2000" />
     </task>
+    <task id="LOCAL-00001" summary="Updates to the cookie manager - single class.">
+      <created>1601366727546</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601366727546</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updates to the cookie manager - single class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates to the cookie manager - single class." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="554" y="88" key="CommitChangelistDialog2" timestamp="1601366725647">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="554" y="88" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1601366725647" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601366729060">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1601366729060" />
   </component>
 </project>
