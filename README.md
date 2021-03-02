@@ -5,7 +5,7 @@ The JavaScript cookie manager aims to allow web developers to easily manage cook
 
 ## Download
 
-<a href="https://github.com/RayLabz/JS-CookieManager/raw/master/CookieManager.zip">DOWNLOAD HERE</a>
+<a href="https://github.com/RayLabz/JS-CookieManager/raw/master/Cookies.zip">DOWNLOAD HERE</a>
 
 Extract in your website folder, in a folder called "js".
 
