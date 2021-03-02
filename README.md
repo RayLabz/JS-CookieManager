@@ -14,7 +14,7 @@ Extract in your website folder, in a folder called "js".
 ##### Import
 You can import the cookie manager in your code using:
 ```js
-<script src="js/CookieManager.js"></script>
+<script src="js/Cookies.js"></script>
 ```
 
 ##### Defining cookie names
